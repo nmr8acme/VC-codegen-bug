@@ -5,6 +5,7 @@
 
 #include "pch.h"
 #include "MainPage.xaml.h"
+#include "Bug.h"
 
 using namespace App1;
 
@@ -24,4 +25,7 @@ using namespace Windows::UI::Xaml::Navigation;
 MainPage::MainPage()
 {
 	InitializeComponent();
+
+    Bug m;
+    m.bug();
 }
