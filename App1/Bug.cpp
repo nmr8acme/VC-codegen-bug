@@ -7,7 +7,7 @@
 
 #include "pch.h"
 
-#define NOBUG
+//#define NOBUG
 
 #include "Bug.h"
 
